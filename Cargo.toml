@@ -12,10 +12,10 @@ authors = ["mfyuu"]
 [dependencies]
 clap = { version = "4", features = ["derive"] }
 clap_complete = { version = "4", features = ["unstable-dynamic"] }
-toml = { version = "0.8", features = ["preserve_order"] }
+toml = { version = "1.0", features = ["preserve_order"] }
 serde = { version = "1", features = ["derive"] }
 indexmap = { version = "2", features = ["serde"] }
-dirs = "6"
+dirs = "7"
 inquire = { git = "https://github.com/mfyuu/inquire", branch = "muu" }
 thiserror = "2"
 
